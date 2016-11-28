@@ -1,0 +1,185 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/v0.10.35/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/v0.10.35/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'body-parser',
+1 verbose cli   'express-session--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json AuthDemo@1.0.0 No description
+5 warn package.json AuthDemo@1.0.0 No repository field.
+6 warn package.json AuthDemo@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'body-parser', null ]
+9 verbose cache add name=undefined spec="body-parser" args=["body-parser",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'body-parser',
+10 verbose parsed url   path: 'body-parser',
+10 verbose parsed url   href: 'body-parser' }
+11 verbose cache add [ 'express-session--save', null ]
+12 verbose cache add name=undefined spec="express-session--save" args=["express-session--save",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'express-session--save',
+13 verbose parsed url   path: 'express-session--save',
+13 verbose parsed url   href: 'express-session--save' }
+14 silly lockFile 14cf125c-body-parser body-parser
+15 verbose lock body-parser /home/ubuntu/.npm/14cf125c-body-parser.lock
+16 silly lockFile 20d63f26-express-session-save express-session--save
+17 verbose lock express-session--save /home/ubuntu/.npm/20d63f26-express-session-save.lock
+18 silly lockFile 14cf125c-body-parser body-parser
+19 silly lockFile 14cf125c-body-parser body-parser
+20 silly lockFile 20d63f26-express-session-save express-session--save
+21 silly lockFile 20d63f26-express-session-save express-session--save
+22 verbose addNamed [ 'body-parser', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 9f665704-body-parser body-parser@
+25 verbose lock body-parser@ /home/ubuntu/.npm/9f665704-body-parser.lock
+26 verbose addNamed [ 'express-session--save', '' ]
+27 verbose addNamed [ null, '*' ]
+28 silly lockFile 738800d4-express-session-save express-session--save@
+29 verbose lock express-session--save@ /home/ubuntu/.npm/738800d4-express-session-save.lock
+30 silly addNameRange { name: 'body-parser', range: '*', hasData: false }
+31 silly addNameRange { name: 'express-session--save', range: '*', hasData: false }
+32 verbose request where is /express-session--save
+33 verbose request registry https://registry.npmjs.org/
+34 verbose request id b5ab5a981a38f0cc
+35 verbose url raw /express-session--save
+36 verbose url resolving [ 'https://registry.npmjs.org/', './express-session--save' ]
+37 verbose url resolved https://registry.npmjs.org/express-session--save
+38 verbose request where is https://registry.npmjs.org/express-session--save
+39 info trying registry request attempt 1 at 06:23:33
+40 http GET https://registry.npmjs.org/express-session--save
+41 verbose request where is /body-parser
+42 verbose request registry https://registry.npmjs.org/
+43 verbose url raw /body-parser
+44 verbose url resolving [ 'https://registry.npmjs.org/', './body-parser' ]
+45 verbose url resolved https://registry.npmjs.org/body-parser
+46 verbose request where is https://registry.npmjs.org/body-parser
+47 info trying registry request attempt 1 at 06:23:33
+48 verbose etag "5PUUGUY167L80GU4QS6KEX8HP"
+49 http GET https://registry.npmjs.org/body-parser
+50 http 200 https://registry.npmjs.org/body-parser
+51 silly registry.get cb [ 200,
+51 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+51 silly registry.get     etag: '"3XNV9U2HO0LI9ZD1OI15PIJC5"',
+51 silly registry.get     'content-type': 'application/json',
+51 silly registry.get     'cache-control': 'max-age=60',
+51 silly registry.get     'content-length': '110612',
+51 silly registry.get     'accept-ranges': 'bytes',
+51 silly registry.get     date: 'Wed, 21 Oct 2015 06:23:33 GMT',
+51 silly registry.get     via: '1.1 varnish',
+51 silly registry.get     age: '19',
+51 silly registry.get     connection: 'keep-alive',
+51 silly registry.get     'x-served-by': 'cache-ord1726-ORD',
+51 silly registry.get     'x-cache': 'HIT',
+51 silly registry.get     'x-cache-hits': '1',
+51 silly registry.get     'x-timer': 'S1445408613.724743,VS0,VE0',
+51 silly registry.get     vary: 'Accept' } ]
+52 silly addNameRange number 2 { name: 'body-parser', range: '*', hasData: true }
+53 silly addNameRange versions [ 'body-parser',
+53 silly addNameRange   [ '1.0.0',
+53 silly addNameRange     '1.0.1',
+53 silly addNameRange     '1.0.2',
+53 silly addNameRange     '1.1.0',
+53 silly addNameRange     '1.1.1',
+53 silly addNameRange     '1.1.2',
+53 silly addNameRange     '1.2.0',
+53 silly addNameRange     '1.2.1',
+53 silly addNameRange     '1.2.2',
+53 silly addNameRange     '1.3.0',
+53 silly addNameRange     '1.3.1',
+53 silly addNameRange     '1.4.0',
+53 silly addNameRange     '1.4.1',
+53 silly addNameRange     '1.4.2',
+53 silly addNameRange     '1.4.3',
+53 silly addNameRange     '1.5.0',
+53 silly addNameRange     '1.5.1',
+53 silly addNameRange     '1.5.2',
+53 silly addNameRange     '1.6.0',
+53 silly addNameRange     '1.6.1',
+53 silly addNameRange     '1.6.2',
+53 silly addNameRange     '1.6.3',
+53 silly addNameRange     '1.6.4',
+53 silly addNameRange     '1.6.5',
+53 silly addNameRange     '1.6.6',
+53 silly addNameRange     '1.6.7',
+53 silly addNameRange     '1.7.0',
+53 silly addNameRange     '1.8.0',
+53 silly addNameRange     '1.8.1',
+53 silly addNameRange     '1.8.2',
+53 silly addNameRange     '1.8.3',
+53 silly addNameRange     '1.8.4',
+53 silly addNameRange     '1.9.0',
+53 silly addNameRange     '1.9.1',
+53 silly addNameRange     '1.9.2',
+53 silly addNameRange     '1.9.3',
+53 silly addNameRange     '1.10.0',
+53 silly addNameRange     '1.10.1',
+53 silly addNameRange     '1.10.2',
+53 silly addNameRange     '1.11.0',
+53 silly addNameRange     '1.12.0',
+53 silly addNameRange     '1.12.1',
+53 silly addNameRange     '1.12.2',
+53 silly addNameRange     '1.12.3',
+53 silly addNameRange     '1.12.4',
+53 silly addNameRange     '1.13.0',
+53 silly addNameRange     '1.13.1',
+53 silly addNameRange     '1.13.2',
+53 silly addNameRange     '1.13.3',
+53 silly addNameRange     '1.14.0',
+53 silly addNameRange     '1.14.1' ] ]
+54 verbose addNamed [ 'body-parser', '1.14.1' ]
+55 verbose addNamed [ '1.14.1', '1.14.1' ]
+56 silly lockFile 37e3018c-body-parser-1-14-1 body-parser@1.14.1
+57 verbose lock body-parser@1.14.1 /home/ubuntu/.npm/37e3018c-body-parser-1-14-1.lock
+58 silly lockFile 37e3018c-body-parser-1-14-1 body-parser@1.14.1
+59 silly lockFile 37e3018c-body-parser-1-14-1 body-parser@1.14.1
+60 silly lockFile 9f665704-body-parser body-parser@
+61 silly lockFile 9f665704-body-parser body-parser@
+62 http 404 https://registry.npmjs.org/express-session--save
+63 silly registry.get cb [ 404,
+63 silly registry.get   { 'content-type': 'application/json',
+63 silly registry.get     'cache-control': 'max-age=0',
+63 silly registry.get     'content-length': '2',
+63 silly registry.get     'accept-ranges': 'bytes',
+63 silly registry.get     date: 'Wed, 21 Oct 2015 06:23:33 GMT',
+63 silly registry.get     via: '1.1 varnish',
+63 silly registry.get     age: '0',
+63 silly registry.get     connection: 'keep-alive',
+63 silly registry.get     'x-served-by': 'cache-dfw1835-DFW',
+63 silly registry.get     'x-cache': 'MISS',
+63 silly registry.get     'x-cache-hits': '0',
+63 silly registry.get     'x-timer': 'S1445408613.738859,VS0,VE50' } ]
+64 silly lockFile 738800d4-express-session-save express-session--save@
+65 silly lockFile 738800d4-express-session-save express-session--save@
+66 error 404 Not Found
+66 error 404
+66 error 404 'express-session--save' is not in the npm registry.
+66 error 404 You should bug the author to publish it
+66 error 404 It was specified as a dependency of 'AuthDemo'
+66 error 404
+66 error 404 Note that you can also install from a
+66 error 404 tarball, folder, or http url, or git url.
+67 error System Linux 3.14.13-c9
+68 error command "/home/ubuntu/.nvm/v0.10.35/bin/node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "install" "body-parser" "express-session--save"
+69 error cwd /home/ubuntu/workspace/Authentication/AuthDemo
+70 error node -v v0.10.35
+71 error npm -v 1.4.28
+72 error code E404
+73 verbose exit [ 1, true ]

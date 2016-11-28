@@ -1,0 +1,38 @@
+{
+  "name": "ms",
+  "version": "0.1.0",
+  "description": "Tiny ms conversion utility",
+  "main": "./ms",
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": "*",
+    "serve": "*"
+  },
+  "_npmUser": {
+    "name": "rauchg",
+    "email": "rauchg@gmail.com"
+  },
+  "_id": "ms@0.1.0",
+  "dependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "_engineSupported": true,
+  "_npmVersion": "1.0.106",
+  "_nodeVersion": "v0.4.12",
+  "_defaultsLoaded": true,
+  "dist": {
+    "shasum": "f21fac490daf1d7667fd180fe9077389cc9442b2",
+    "tarball": "http://registry.npmjs.org/ms/-/ms-0.1.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "rauchg",
+      "email": "rauchg@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_shasum": "f21fac490daf1d7667fd180fe9077389cc9442b2",
+  "_from": "ms@0.1.0",
+  "_resolved": "https://registry.npmjs.org/ms/-/ms-0.1.0.tgz"
+}

@@ -1,0 +1,72 @@
+{
+  "name": "passport-strategy",
+  "version": "1.0.0",
+  "description": "An abstract class implementing Passport's strategy API.",
+  "keywords": [
+    "passport",
+    "strategy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/passport-strategy.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/passport-strategy/issues"
+  },
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  },
+  "testling": {
+    "browsers": [
+      "chrome/latest"
+    ],
+    "harness": "mocha",
+    "files": [
+      "test/bootstrap/testling.js",
+      "test/*.test.js"
+    ]
+  },
+  "readme": "# passport-strategy\n\n[![Build](https://travis-ci.org/jaredhanson/passport-strategy.png)](http://travis-ci.org/jaredhanson/passport-strategy)\n[![Coverage](https://coveralls.io/repos/jaredhanson/passport-strategy/badge.png)](https://coveralls.io/r/jaredhanson/passport-strategy)\n[![Dependencies](https://david-dm.org/jaredhanson/passport-strategy.png)](http://david-dm.org/jaredhanson/passport-strategy)\n\n\nAn abstract class implementing [Passport](http://passportjs.org/)'s strategy\nAPI.\n\n## Install\n\n    $ npm install passport-strategy\n\n## Usage\n\nThis module exports an abstract `Strategy` class that is intended to be\nsubclassed when implementing concrete authentication strategies.  Once\nimplemented, such strategies can be used by applications that utilize Passport\nmiddleware for authentication.\n\n#### Subclass Strategy\n\nCreate a new `CustomStrategy` constructor which inherits from `Strategy`:\n\n```javascript\nvar util = require('util')\n  , Strategy = require('passport-strategy');\n\nfunction CustomStrategy(...) {\n  Strategy.call(this);\n}\n\nutil.inherits(CustomStrategy, Strategy);\n```\n\n#### Implement Authentication\n\nImplement `autheticate()`, performing the necessary operations required by the\nauthentication scheme or protocol being implemented.\n\n```javascript\nCustomStrategy.prototype.authenticate = function(req, options) {\n  // TODO: authenticate request\n}\n```\n\n## Tests\n\n    $ npm install\n    $ npm test\n\n## Credits\n\n  - [Jared Hanson](http://github.com/jaredhanson)\n\n## License\n\n[The MIT License](http://opensource.org/licenses/MIT)\n\nCopyright (c) 2011-2013 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>\n",
+  "readmeFilename": "README.md",
+  "_id": "passport-strategy@1.0.0",
+  "dist": {
+    "shasum": "b5539aa8fc225a3d1ad179476ddf236b440f52e4",
+    "tarball": "http://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz"
+  },
+  "_from": "passport-strategy@1.x.x",
+  "_npmVersion": "1.2.25",
+  "_npmUser": {
+    "name": "jaredhanson",
+    "email": "jaredhanson@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "jaredhanson",
+      "email": "jaredhanson@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_shasum": "b5539aa8fc225a3d1ad179476ddf236b440f52e4",
+  "_resolved": "https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz",
+  "homepage": "https://github.com/jaredhanson/passport-strategy"
+}

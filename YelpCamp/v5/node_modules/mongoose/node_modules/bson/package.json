@@ -1,0 +1,71 @@
+{
+  "name": "bson",
+  "description": "A bson parser for node.js and the browser",
+  "keywords": [
+    "mongodb",
+    "bson",
+    "parser"
+  ],
+  "version": "0.4.19",
+  "author": {
+    "name": "Christian Amor Kvalheim",
+    "email": "christkv@gmail.com"
+  },
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mongodb/js-bson.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mongodb/js-bson/issues"
+  },
+  "devDependencies": {
+    "nodeunit": "0.9.0",
+    "gleak": "0.2.3",
+    "one": "2.X.X",
+    "benchmark": "1.0.0",
+    "colors": "1.1.0"
+  },
+  "config": {
+    "native": false
+  },
+  "main": "./lib/bson/index",
+  "directories": {
+    "lib": "./lib/bson"
+  },
+  "engines": {
+    "node": ">=0.6.19"
+  },
+  "scripts": {
+    "test": "nodeunit ./test/node"
+  },
+  "browser": "lib/bson/bson.js",
+  "license": "Apache-2.0",
+  "gitHead": "70852794697af3ff6c08f922b6961e80af94e9f0",
+  "homepage": "https://github.com/mongodb/js-bson",
+  "_id": "bson@0.4.19",
+  "_shasum": "1a340f39a83d163c18af9c5ca92d2b697a35be41",
+  "_from": "bson@~0.4.18",
+  "_npmVersion": "2.14.7",
+  "_nodeVersion": "4.2.1",
+  "_npmUser": {
+    "name": "christkv",
+    "email": "christkv@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "octave",
+      "email": "chinsay@gmail.com"
+    },
+    {
+      "name": "christkv",
+      "email": "christkv@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "1a340f39a83d163c18af9c5ca92d2b697a35be41",
+    "tarball": "http://registry.npmjs.org/bson/-/bson-0.4.19.tgz"
+  },
+  "_resolved": "https://registry.npmjs.org/bson/-/bson-0.4.19.tgz",
+  "readme": "ERROR: No README data found!"
+}

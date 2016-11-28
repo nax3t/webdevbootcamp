@@ -1,0 +1,60 @@
+{
+  "name": "kareem",
+  "version": "1.0.1",
+  "description": "Next-generation take on pre/post function hooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./test/*",
+    "test-travis": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vkarpov15/kareem.git"
+  },
+  "devDependencies": {
+    "acquit": "0.0.3",
+    "gulp": "3.8.10",
+    "gulp-mocha": "2.0.0",
+    "gulp-jscs": "1.4.0",
+    "istanbul": "0.3.5",
+    "jscs": "1.9.0",
+    "mocha": "2.0.0"
+  },
+  "jscsConfig": {
+    "preset": "airbnb",
+    "requireMultipleVarDecl": null,
+    "disallowMultipleVarDecl": true
+  },
+  "author": {
+    "name": "Valeri Karpov",
+    "email": "val@karpov.io"
+  },
+  "license": "Apache 2.0",
+  "gitHead": "69710887f85dee09afac690df770dd2febde7268",
+  "bugs": {
+    "url": "https://github.com/vkarpov15/kareem/issues"
+  },
+  "homepage": "https://github.com/vkarpov15/kareem",
+  "_id": "kareem@1.0.1",
+  "_shasum": "7805d215bb53214ec3af969a1d0b1f17e3e7b95c",
+  "_from": "kareem@1.0.1",
+  "_npmVersion": "2.7.4",
+  "_nodeVersion": "0.12.2",
+  "_npmUser": {
+    "name": "vkarpov15",
+    "email": "valkar207@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "vkarpov15",
+      "email": "valkar207@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "7805d215bb53214ec3af969a1d0b1f17e3e7b95c",
+    "tarball": "http://registry.npmjs.org/kareem/-/kareem-1.0.1.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/kareem/-/kareem-1.0.1.tgz",
+  "readme": "ERROR: No README data found!"
+}

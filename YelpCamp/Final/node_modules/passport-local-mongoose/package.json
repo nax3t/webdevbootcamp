@@ -1,0 +1,67 @@
+{
+  "name": "passport-local-mongoose",
+  "description": "Mongoose plugin that simplifies building username and password login with Passport",
+  "version": "3.1.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/saintedlama/passport-local-mongoose.git"
+  },
+  "author": {
+    "name": "Christoph Walcher",
+    "email": "christoph.walcher@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "mongoose",
+    "passport",
+    "authentication",
+    "login"
+  ],
+  "engines": {
+    "node": ">= 0.12"
+  },
+  "dependencies": {
+    "generaterr": "^1.2.0",
+    "passport-local": "^1.0.0",
+    "scmp": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.2",
+    "mongoose": "4.1.x",
+    "shelljs": "^0.5.3"
+  },
+  "scripts": {
+    "test": "mocha -R spec test/",
+    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha --report html -- -R spec",
+    "release": "node release.js"
+  },
+  "gitHead": "531963585b259a5c3c1859b9af73aa74d1a8e291",
+  "bugs": {
+    "url": "https://github.com/saintedlama/passport-local-mongoose/issues"
+  },
+  "homepage": "https://github.com/saintedlama/passport-local-mongoose#readme",
+  "_id": "passport-local-mongoose@3.1.0",
+  "_shasum": "9da8d0b792870c384502eeb1f7d30e34bff142c6",
+  "_from": "passport-local-mongoose@",
+  "_npmVersion": "2.14.4",
+  "_nodeVersion": "4.1.1",
+  "_npmUser": {
+    "name": "saintedlama",
+    "email": "christoph.walcher@gmail.com"
+  },
+  "dist": {
+    "shasum": "9da8d0b792870c384502eeb1f7d30e34bff142c6",
+    "tarball": "http://registry.npmjs.org/passport-local-mongoose/-/passport-local-mongoose-3.1.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "saintedlama",
+      "email": "christoph.walcher@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/passport-local-mongoose/-/passport-local-mongoose-3.1.0.tgz",
+  "readme": "ERROR: No README data found!"
+}

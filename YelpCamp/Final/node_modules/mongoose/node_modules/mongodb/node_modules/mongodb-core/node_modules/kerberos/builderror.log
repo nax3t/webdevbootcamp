@@ -1,0 +1,25 @@
+../lib/kerberos.cc:848:43: error: no viable conversion from 'Handle<v8::Value>' to 'Local<v8::Value>'
+    Local<Value> info[2] = { Nan::Null(), result};
+                                          ^~~~~~
+/Users/christkv/.node-gyp/0.10.35/deps/v8/include/v8.h:269:26: note: candidate constructor (the implicit copy constructor) not viable: cannot bind base class object of type 'Handle<v8::Value>' to derived class reference 'const v8::Local<v8::Value> &' for 1st argument
+template <class T> class Local : public Handle<T> {
+                         ^
+/Users/christkv/.node-gyp/0.10.35/deps/v8/include/v8.h:272:29: note: candidate template ignored: could not match 'Local' against 'Handle'
+  template <class S> inline Local(Local<S> that)
+                            ^
+/Users/christkv/.node-gyp/0.10.35/deps/v8/include/v8.h:281:29: note: candidate template ignored: could not match 'S *' against 'Handle<v8::Value>'
+  template <class S> inline Local(S* that) : Handle<T>(that) { }
+                            ^
+1 error generated.
+make: *** [Release/obj.target/kerberos/lib/kerberos.o] Error 1
+gyp ERR! build error 
+gyp ERR! stack Error: `make` failed with exit code: 2
+gyp ERR! stack     at ChildProcess.onExit (/usr/local/lib/node_modules/npm/node_modules/node-gyp/lib/build.js:267:23)
+gyp ERR! stack     at ChildProcess.emit (events.js:98:17)
+gyp ERR! stack     at Process.ChildProcess._handle.onexit (child_process.js:820:12)
+gyp ERR! System Darwin 14.3.0
+gyp ERR! command "node" "/usr/local/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
+gyp ERR! cwd /Users/christkv/coding/projects/kerberos
+gyp ERR! node -v v0.10.35
+gyp ERR! node-gyp -v v1.0.1
+gyp ERR! not ok 

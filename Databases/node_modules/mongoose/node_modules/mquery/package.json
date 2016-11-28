@@ -1,0 +1,68 @@
+{
+  "name": "mquery",
+  "version": "1.6.3",
+  "description": "Expressive query building for MongoDB",
+  "main": "lib/mquery.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aheckmann/mquery.git"
+  },
+  "dependencies": {
+    "bluebird": "2.9.26",
+    "debug": "2.2.0",
+    "regexp-clone": "0.0.1",
+    "sliced": "0.0.5"
+  },
+  "devDependencies": {
+    "mongodb": "1.4.38",
+    "mocha": "1.9.x",
+    "istanbul": "0.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/aheckmann/mquery/issues/new"
+  },
+  "author": {
+    "name": "Aaron Heckmann",
+    "email": "aaron.heckmann+github@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "mongodb",
+    "query",
+    "builder"
+  ],
+  "homepage": "https://github.com/aheckmann/mquery/",
+  "gitHead": "cd0c3284df2089eed5f0a331802e15c6ff0e7fab",
+  "_id": "mquery@1.6.3",
+  "_shasum": "7c02bfb7e49c8012cece1556c5e65fef61f3c8e5",
+  "_from": "mquery@1.6.3",
+  "_npmVersion": "2.9.1",
+  "_nodeVersion": "0.12.3",
+  "_npmUser": {
+    "name": "vkarpov15",
+    "email": "val@karpov.io"
+  },
+  "dist": {
+    "shasum": "7c02bfb7e49c8012cece1556c5e65fef61f3c8e5",
+    "tarball": "http://registry.npmjs.org/mquery/-/mquery-1.6.3.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "aaron",
+      "email": "aaron.heckmann+github@gmail.com"
+    },
+    {
+      "name": "ebensing",
+      "email": "ebensing38@gmail.com"
+    },
+    {
+      "name": "vkarpov15",
+      "email": "valkar207@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/mquery/-/mquery-1.6.3.tgz"
+}

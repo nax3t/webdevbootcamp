@@ -1,0 +1,50 @@
+{
+  "name": "muri",
+  "version": "1.0.0",
+  "description": "MongoDB URI parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aheckmann/muri.git"
+  },
+  "keywords": [
+    "mongodb",
+    "uri",
+    "parser"
+  ],
+  "author": {
+    "name": "Aaron Heckmann",
+    "email": "aaron.heckmann+github@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "1.21.5"
+  },
+  "bugs": {
+    "url": "https://github.com/aheckmann/muri/issues"
+  },
+  "homepage": "https://github.com/aheckmann/muri",
+  "_id": "muri@1.0.0",
+  "dist": {
+    "shasum": "de3bf6bd71d67eae71d76689b950d2de118695c6",
+    "tarball": "http://registry.npmjs.org/muri/-/muri-1.0.0.tgz"
+  },
+  "_from": "muri@1.0.0",
+  "_npmVersion": "1.4.4",
+  "_npmUser": {
+    "name": "aaron",
+    "email": "aaron.heckmann@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "aaron",
+      "email": "aaron.heckmann+github@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_shasum": "de3bf6bd71d67eae71d76689b950d2de118695c6",
+  "_resolved": "https://registry.npmjs.org/muri/-/muri-1.0.0.tgz"
+}

@@ -1,0 +1,14 @@
+index.js
+nohup.out
+package.json
+readme.md
+
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module '/root/dat-bot/repos/finnp/knock-knock-jokes/inde.js'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:902:3

@@ -1,0 +1,66 @@
+{
+  "name": "hooks-fixed",
+  "description": "Adds pre and post hook functionality to your JavaScript methods.",
+  "version": "1.1.0",
+  "keywords": [
+    "node",
+    "hooks",
+    "middleware",
+    "pre",
+    "post"
+  ],
+  "homepage": "https://github.com/vkarpov15/hooks-fixed/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vkarpov15/hooks-fixed.git"
+  },
+  "author": {
+    "name": "Brian Noguchi",
+    "email": "brian.noguchi@gmail.com",
+    "url": "https://github.com/bnoguchi/"
+  },
+  "main": "./hooks.js",
+  "directories": {
+    "lib": "."
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "expresso": ">=0.7.6",
+    "should": ">=0.2.1",
+    "underscore": ">=1.1.4"
+  },
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "licenses": [
+    "MIT"
+  ],
+  "optionalDependencies": {},
+  "gitHead": "17ef258ae58d7aa6de7cec5b57f76233a4ba1c96",
+  "bugs": {
+    "url": "https://github.com/vkarpov15/hooks-fixed/issues"
+  },
+  "_id": "hooks-fixed@1.1.0",
+  "_shasum": "0e8c15336708e6611185fe390b44687dd5230dbb",
+  "_from": "hooks-fixed@1.1.0",
+  "_npmVersion": "2.9.1",
+  "_nodeVersion": "0.12.3",
+  "_npmUser": {
+    "name": "vkarpov15",
+    "email": "val@karpov.io"
+  },
+  "dist": {
+    "shasum": "0e8c15336708e6611185fe390b44687dd5230dbb",
+    "tarball": "http://registry.npmjs.org/hooks-fixed/-/hooks-fixed-1.1.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "vkarpov15",
+      "email": "valkar207@gmail.com"
+    }
+  ],
+  "_resolved": "https://registry.npmjs.org/hooks-fixed/-/hooks-fixed-1.1.0.tgz"
+}

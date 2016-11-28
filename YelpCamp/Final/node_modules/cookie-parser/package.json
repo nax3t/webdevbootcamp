@@ -1,0 +1,76 @@
+{
+  "name": "cookie-parser",
+  "description": "cookie parsing with signatures",
+  "version": "1.4.0",
+  "author": {
+    "name": "TJ Holowaychuk",
+    "email": "tj@vision-media.ca",
+    "url": "http://tjholowaychuk.com"
+  },
+  "contributors": [
+    {
+      "name": "Douglas Christopher Wilson",
+      "email": "doug@somethingdoug.com"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expressjs/cookie-parser"
+  },
+  "keywords": [
+    "cookie",
+    "middleware"
+  ],
+  "dependencies": {
+    "cookie": "0.2.2",
+    "cookie-signature": "1.0.6"
+  },
+  "devDependencies": {
+    "istanbul": "0.3.20",
+    "mocha": "2.2.5",
+    "supertest": "1.1.0"
+  },
+  "files": [
+    "LICENSE",
+    "HISTORY.md",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --bail --check-leaks test/",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+  },
+  "gitHead": "7defc09815f04dc7b665fd220b8705fba8d9573d",
+  "bugs": {
+    "url": "https://github.com/expressjs/cookie-parser/issues"
+  },
+  "homepage": "https://github.com/expressjs/cookie-parser",
+  "_id": "cookie-parser@1.4.0",
+  "_shasum": "73323d5a7de341078c446109c622d2f7008164ee",
+  "_from": "cookie-parser@",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "dougwilson",
+    "email": "doug@somethingdoug.com"
+  },
+  "maintainers": [
+    {
+      "name": "dougwilson",
+      "email": "doug@somethingdoug.com"
+    },
+    {
+      "name": "defunctzombie",
+      "email": "shtylman@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "73323d5a7de341078c446109c622d2f7008164ee",
+    "tarball": "http://registry.npmjs.org/cookie-parser/-/cookie-parser-1.4.0.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.4.0.tgz"
+}
