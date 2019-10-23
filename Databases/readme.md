@@ -2,7 +2,7 @@
 
 ##Intro to Databases
 * What is a database? 
-    * A collection of information/data
+    * A collection of raw data or information 
     * Has an interface
 * SQL(relational) vs. NoSQL(non-relational)
 
