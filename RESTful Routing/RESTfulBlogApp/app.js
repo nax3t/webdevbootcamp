@@ -6,7 +6,11 @@ express        = require("express"),
 app            = express();
 
 // APP CONFIG
-mongoose.connect("mongodb://localhost/restful_blog_app");
+mongoose.connect('mongodb://localhost:27017/restful_blog_app', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  useFindAndModify : false
+})  
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
@@ -48,6 +52,7 @@ app.get("/blogs/new", function(req, res){
 app.post("/blogs", function(req, res){
     // create blog
     console.log(req.body);
+    req.body.blog.body= req.sanitize(req.body.blog.body);
     console.log("===========")
     console.log(req.body);
     Blog.create(req.body.blog, function(err, newBlog){
